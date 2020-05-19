@@ -114,3 +114,4 @@ def mdb2sql(filepath, host, user, password, db) -> NoReturn:
     create_table(crsr_mysql, tables_info)
     add_rows(tables_info, crsr_access, crsr_mysql, connect1)
     close(connect, crsr_access, connect1, crsr_mysql)
+    print('Done！！！')
